@@ -1,7 +1,9 @@
+/* インデントの修正     */
 * {
 box-sizing: border-box;
 }
 
+/* インデントの修正     */
 body {
 max-width: 1080px;
 margin: 0 auto 0 auto;
@@ -19,18 +21,24 @@ header {
     padding-top: 15px;
 }
 
+/* cssの指定方法（#nav-pc > a と #nav-pc  a の違い） */
 #nav-pc > a {
     text-decoration: none;
+    /* 色の指定（これは教材に指定ありませんでした） */
+    /* color: #04414A; */
 }
 
-#nav-pc > a:hover {
+/* cssの指定方法（#nav-pc > a と #nav-pc  a の違い） */
+#nav-pc  > a:hover {
     text-decoration: underline;
 }
 
 #nav-pc > ul {
     padding-left: 0;
 }
-#nav-pc > li {
+
+/* cssの指定方法（#nav-pc > a と #nav-pc  a の違い） */
+#nav-pc  li {
     display: inline;
     list-style: none;
     margin-right: 30px;
@@ -42,6 +50,7 @@ header {
 }
 
 #main-message {
+/* インデントの修正     */
 position: absolute;
 top: 0;
 left: 0;
@@ -60,6 +69,7 @@ z-index: 11;
     margin: 100px 0 0 50px;
 }
 
+/* タイプミス massage　message*/
 #main-massage > p {
     font-size: 28px;
     margin: 0 0 0 50px;
